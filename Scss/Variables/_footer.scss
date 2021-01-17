@@ -1,0 +1,27 @@
+.footer__icons img {
+    fill: white;
+}
+
+.footer__icons--lists {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.footer__icons--lists li {
+    margin-right: 10px;
+}
+
+.footer__navigation--lists {
+    padding: 0;
+    text-align: center;
+}
+
+.footer__navigation--lists li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__invitation p {
+color: #9698a6;
+}

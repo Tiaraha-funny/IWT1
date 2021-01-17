@@ -1,0 +1,57 @@
+.default__menu {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+  }
+  
+  .dropdown_checkbox {
+    position: absolute;
+    top: 26px;
+    right: 7px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+  }
+  
+  .close__menu {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
+  
+  .dropdown_checkbox:checked ~ .navigation {    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    background: #2d314d;
+    background: linear-gradient( 180deg, #2d314d 0%, rgba(255, 255, 255, 0) 100% );
+    width: 100%;
+    margin: 0;
+    top: 10vh;
+    transition: top 0.2s linear;
+  }
+  
+  .dropdown_checkbox {
+    opacity: 0;
+  }
+  
+  .dropdown_checkbox:checked ~ .heading > .default__menu {
+    display: none;
+  }
+  
+  .dropdown_checkbox:checked ~ .heading > .close__menu {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+  }
+  
+  .dropdown_checkbox:checked ~ .navigation > ul > .request__invite {
+    display: none;
+  }
+
+  
