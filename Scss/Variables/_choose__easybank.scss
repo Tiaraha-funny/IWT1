@@ -29,3 +29,22 @@
     margin: auto;
     margin-bottom: 60px;
 }
+
+@media (min-width: 1440px) {
+    .informaton__lists {
+        display: flex;
+        text-align: left;
+        margin-inline-start: 70px;
+        margin-inline-end: 50px;
+        padding: 0;
+    }
+
+    .informaton__lists li {
+        margin-inline-end: 40px;
+    }
+
+    .information__headings {
+        align-items: flex-start;
+        margin-inline-start: 70px;
+    }
+}

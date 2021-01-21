@@ -26,6 +26,7 @@
 
 .latest__article--description li img {
     border-radius: 10px;
+    width: 100%;
 }
 
 .description {
@@ -38,4 +39,26 @@
 .articles__title {
     color: black;
     font-size: 20px;
+}
+
+@media (min-width: 1440px) {
+    .latest__article--description {
+        display: flex;
+        margin-inline-start: 70px;
+        margin-inline-end: 50px;
+    }
+
+    .latest__article--heading {
+        margin-inline-start: -1130px;
+    }
+
+    .latest__article--description li {
+        margin-inline-end: 30px;
+    }
+
+    .latest__article--description li img {
+        height: 250px;
+        object-fit: cover;
+    }
+
 }

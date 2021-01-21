@@ -25,3 +25,9 @@
 .footer__invitation p {
 color: #9698a6;
 }
+
+@media (min-width: 1440px) {
+    .footer__invitation {
+        text-align: end;
+    }
+}

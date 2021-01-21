@@ -32,12 +32,12 @@
     display: none;
   }
   .navigation {
-      display: block;
+    display: block;
   }
   .navigation__lists {
     display: flex;
     flex-direction: row;
-    margin-inline-start: 378px;
+    margin-inline-start: 33%;
     margin-top: -71px;
   }
   .navigation__lists--items {
@@ -46,6 +46,8 @@
   }
 
   .navigation__lists > button {
-      margin-left: 300px;
+    margin-left: 35%;
   }
+
+
 }
