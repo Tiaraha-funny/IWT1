@@ -141,15 +141,19 @@ footer {
 
 @media (min-width: 1440px) {
   .heading__features {
-    background-image: url(../../images/bg-intro-desktop.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
+    background: url(../../images/image-mockups-desktop.png), url(../../images/bg-intro-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: 100%, 369px;
+    background-position-y: 2px, -160px;
+    background-size: 44%, 78%;
     position: relative;
     z-index: 0;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: -113px; }
+  .features {
+    display: none; }
   .title {
-    margin-inline-start: 7%; }
+    margin-inline-start: 10%; }
   .heading {
     margin-inline-end: 70px; } }
 
@@ -192,7 +196,7 @@ footer {
     margin: 15px;
     line-height: 0; }
   .navigation__lists > button {
-    margin-left: 35%; } }
+    margin-left: 25%; } }
 
 .request__invite {
   border-radius: 50px;
@@ -254,9 +258,10 @@ footer {
   .main__section {
     display: flex;
     flex-direction: row-reverse;
-    text-align: left; }
+    text-align: left;
+    padding-bottom: 30px; }
   .main__section--headings {
-    margin-inline-start: 70px; }
+    margin-inline-start: 100px; }
   .main__section--headings p {
     margin-inline-start: 30px; }
   .main__section--headings button {
@@ -292,14 +297,14 @@ footer {
   .informaton__lists {
     display: flex;
     text-align: left;
-    margin-inline-start: 70px;
+    margin-inline-start: 100px;
     margin-inline-end: 50px;
     padding: 0; }
   .informaton__lists li {
     margin-inline-end: 40px; }
   .information__headings {
     align-items: flex-start;
-    margin-inline-start: 70px; } }
+    margin-inline-start: 100px; } }
 
 .latest__articles {
   background-color: #fafafa;
@@ -340,10 +345,10 @@ footer {
 @media (min-width: 1440px) {
   .latest__article--description {
     display: flex;
-    margin-inline-start: 70px;
+    margin-inline-start: 100px;
     margin-inline-end: 50px; }
   .latest__article--heading {
-    margin-inline-start: -1130px; }
+    margin-inline-start: -1000px; }
   .latest__article--description li {
     margin-inline-end: 30px; }
   .latest__article--description li img {
