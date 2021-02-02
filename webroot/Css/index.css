@@ -141,7 +141,7 @@ footer {
 
 @media (min-width: 1440px) {
   .heading__features {
-    background: url(../../webroot/images/image-mockups-desktop.png), url(../../webroot/images/bg-intro-desktop.svg);
+    background: url(../../images/image-mockups-desktop.png), url(../../images/bg-intro-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position-x: 100%, 369px;
     background-position-y: 2px, -160px;
@@ -383,7 +383,7 @@ footer {
     text-align: end; } }
 
 .facebook {
-  background-image: url(../../webroot/images/icon-facebook.svg);
+  background-image: url(../../images/icon-facebook.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -392,7 +392,7 @@ footer {
 
 .facebook:hover,
 .facebook:focus {
-  background-image: url(../../webroot/images/icon-green-facebook.svg);
+  background-image: url(../../images/icon-green-facebook.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -400,7 +400,7 @@ footer {
   display: block; }
 
 .instagram {
-  background-image: url(../../webroot/images/icon-instagram.svg);
+  background-image: url(../../images/icon-instagram.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -408,7 +408,7 @@ footer {
   display: block; }
 
 .instagram:hover, .instagram:focus {
-  background-image: url(../../webroot/images/incon-green-instagram.svg);
+  background-image: url(../../images/incon-green-instagram.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -416,7 +416,7 @@ footer {
   display: block; }
 
 .twitter {
-  background-image: url(../../webroot/images/icon-twitter.svg);
+  background-image: url(../../images/icon-twitter.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -424,7 +424,7 @@ footer {
   display: block; }
 
 .twitter:hover, .twitter:focus {
-  background-image: url(../../webroot/images/icon-green-twitter.svg);
+  background-image: url(../../images/icon-green-twitter.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -432,7 +432,7 @@ footer {
   display: block; }
 
 .pinterest {
-  background-image: url(../../webroot/images/icon-pinterest.svg);
+  background-image: url(../../images/icon-pinterest.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -440,7 +440,7 @@ footer {
   display: block; }
 
 .pinterest:hover, .pinterest:focus {
-  background-image: url(../../webroot/images/icon-green-pinterest.svg);
+  background-image: url(../../images/icon-green-pinterest.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -448,7 +448,7 @@ footer {
   display: block; }
 
 .youtube {
-  background-image: url(../../webroot/images/icon-youtube.svg);
+  background-image: url(../../images/icon-youtube.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
@@ -456,7 +456,7 @@ footer {
   display: block; }
 
 .youtube:hover, .youtube:focus {
-  background-image: url(../../webroot/images/icon-green-youtube.svg);
+  background-image: url(../../images/icon-green-youtube.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   width: 20px;
